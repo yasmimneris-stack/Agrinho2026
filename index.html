@@ -1,3 +1,66 @@
-Denocracia corinthiana 
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>historia corinthiana</title>
+        <style>
+            header{
+                background-color: #480505;
+                color: #FFFFFF;
+                text-align: center;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 16px;
+                border: 5px solid #483B3B;
+            }
+            main{
+                background-color: #FFFFFF;
+                color: #480505;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 16px;
+                display: flex;
+            }
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            .artigo-autor {
+                font-weight: bold;
+            }
 
-vou compartilhar conhecimentos sobre a democracia corinthiana
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>democracia corinthiana</h1> 
+            <p>vou compartilhar conhecimentos sobre a democracia corinthiana</p>
+        </header>
+        <main>
+            <img src="image_35ec91f3.png" alt="Ilustração em estilo pixel art sobre a Democracia Corinthiana, com traços na cor vinho escuro sobre um fundo branco. No centro da imagem, três jogadores com camisas listradas do Corinthians celebram de braços dados em frente à torcida. Acima e abaixo deles, faixas em arco trazem o texto "DEMOCRACIA CORINTHIANA" em letras pixeladas, acompanhadas pelo escudo clássico do clube à direita.">
+            <div>
+                <h2>historia corinthiana</h2>
+                <p class="artigo-autor">por: Yasmim Rota Neris</p>
+                <p>Bem vindos ao meu site. Aqui vou compartilhar historias e curiosidades da historia do corinthians</p>
+                <button>❤️ <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+
+        </main>
+    </body>
+<script>
+    const botoes = document.querySelector("button");
+
+    botoes.forEach( function(botao){
+        botao.addEventListener("click", botaoClicado);
+        function botaoClicado(){
+            conloe.log("fui clicado");
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+        }
+    } )
+
+
+</script>
+</html>
